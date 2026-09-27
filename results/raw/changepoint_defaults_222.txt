@@ -1,0 +1,21 @@
+载入需要的程序包：zoo
+
+载入程序包：‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Successfully loaded changepoint package version 2.2.2
+ NOTE: Predefined penalty values changed in version 2.2.  Previous penalty values with a postfix 1 i.e. SIC1 are now without i.e. SIC and previous penalties without a postfix i.e. SIC are now with a postfix 0 i.e. SIC0. See NEWS and help files for further details.
+packageVersion: 2.2.2 
+R: R version 4.6.1 (2026-06-24) 
+--- (1) declared defaults ---
+cpt.mean     method.default="AMOC"   penalty.default="MBIC"
+cpt.meanvar  method.default="AMOC"   penalty.default="MBIC"
+cpt.var      method.default="AMOC"   penalty.default="MBIC"
+--- (2) behavioural check ---
+true change points at: 60,120,180 
+cpt.mean(x)                  -> ncpts = 1  cpts = 60 
+cpt.mean(x, method='PELT')   -> ncpts = 3  cpts = 60,120,180 
+VERDICT default is AMOC (single change): TRUE 

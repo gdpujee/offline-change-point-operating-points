@@ -1,0 +1,4 @@
+{"delta_mean": 0.0033699458939755295, "greedy_mean": 0.7270288651719239, "loss": 3, "n": 41, "optimal_mean": 0.7236589192779485, "ref": "binseg", "tie": 32, "wilcoxon_p": 0.5939546753269146, "win": 6}
+{"delta_mean": 0.008597564073977859, "greedy_mean": 0.7271969067026782, "loss": 2, "n": 37, "optimal_mean": 0.7185993426287002, "ref": "pelt", "tie": 28, "wilcoxon_p": 0.44126813332892967, "win": 7}
+{"delta_mean": 0.022789459864170854, "greedy_mean": 0.7251962081818223, "loss": 3, "n": 33, "optimal_mean": 0.7024067483176513, "ref": "pelt_bic", "tie": 22, "wilcoxon_p": 0.3739447986092539, "win": 8}
+{"delta_mean": 0.021573589868368784, "greedy_mean": 0.6965762699813434, "loss": 5, "n": 41, "optimal_mean": 0.6750026801129746, "ref": "segneigh", "tie": 25, "wilcoxon_p": 0.25529050519961505, "win": 11}

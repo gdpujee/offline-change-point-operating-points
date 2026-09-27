@@ -1,0 +1,86 @@
+{
+ "evidence_id": "EVID-031",
+ "identity_check": {
+  "n_datasets": 41,
+  "n_identical_k": 41,
+  "note": "TCPD \u4e0a binseg_q200 vs binseg_q200_floor \u7684 k \u9010\u6761\u76f8\u540c\uff08\u5730\u677f\u5728 z-scored \u6570\u636e\u4e0a\u6052\u4e0d\u89e6\u53d1\uff09"
+ },
+ "identity_check_2": {
+  "differing": [
+   {
+    "dataset": "occupancy",
+    "f1_binseg_q200_floor": 0.7780422909956589,
+    "f1_binseg_q5": 0.7490541532554068,
+    "k_binseg_q200_floor": 6,
+    "k_binseg_q5": 5
+   }
+  ],
+  "n_datasets": 41,
+  "n_identical_k": 40,
+  "note": "TCPD \u4e0a binseg_q5 vs binseg_q200_floor \u7684 k\uff1a\u9664 occupancy \u5916\u9010\u6761\u76f8\u540c\u3002\u8fd9\u6761\u76f4\u63a5\u89e3\u91ca\u4e86\u68c0\u9a8c\u2461\u4e3a\u4f55\u53ea\u6709 1 \u6761\u975e\u96f6\u5dee\u3002"
+ },
+ "inputs": {
+  "results/raw/qcap.jsonl": "ded4ca627cd4893413af5d6c09a0b3942e1180fde59451078960b4a750c9321c",
+  "results/raw/tcpd_main.json": "8edab7e60e6348d3fd49d7147dcd0f6237a4b1b19eddc8419800d5796b97bc7a"
+ },
+ "method": "scipy.stats.wilcoxon(diffs), default method='auto' (verified by explicit re-run to resolve to the normal approximation here, because of tied zero differences), zero_method='wilcox', two-sided; diff = A - B, paired one-to-one per dataset; win/loss/tie threshold = 1e-9",
+ "robustness_test_2_other_file": {
+  "loss": 0,
+  "mean_delta_f1": 0.000707027749762241,
+  "n": 41,
+  "n_nonzero_diffs": 8,
+  "note": "\u540c\u4e00\u7b97\u6cd5\u3001\u540c\u4e00 margin=5\uff0c\u4f46\u5bf9\u7167\u81c2\u53d6\u81ea tcpd_main.json \u7684 binseg \u800c\u975e qcap.jsonl \u7684 binseg_q5\u3002\u4e24\u6587\u4ef6\u7684 recall \u6d6e\u70b9\u8def\u5f84\u4e0d\u540c\uff08CPython sum() \u8bed\u4e49\u5dee\u5f02\uff0c\u89c1 REPRODUCIBILITY_AUDIT.md \u00a75.7.3d\uff09\uff0c\u4f7f\u914d\u5bf9\u5dee\u4ece 1 \u4e2a\u975e\u96f6 \u53d8\u6210 8 \u4e2a\uff0cWilcoxon p \u7531 0.317311 \u8df3\u5230 0.773688\u3002\u8bba\u6587\u7528\u7684\u662f**\u540c\u6587\u4ef6\u5185\u914d\u5bf9**\uff08floor \u4e0e q5 \u90fd\u53d6\u81ea qcap.jsonl\uff09\uff0c\u8fd9\u662f\u6b63\u786e\u53e3\u5f84\uff1b\u672c\u6761\u8bb0\u5f55\u7684\u662f\u8be5\u53e3\u5f84\u5bf9\u5916\u90e8\u590d\u6838\u8005\u7684\u654f\u611f\u6027\u3002\u6ce8\u610f\u672c\u6761\u7684 win/loss/tie=1/0/40 \u4e0e n_nonzero_diffs=8 \u5e76\u4e0d\u77db\u76fe\uff0c\u4e14\u6b63\u662f\u8106\u5f31\u6027\u7684\u6765\u6e90\uff1awin/loss/tie \u7528 1e-9 \u5bb9\u5dee\uff08\u6545 7 \u4e2a \u22641 ULP \u5dee\u88ab\u7b97\u4f5c tie\uff09\uff0c\u800c scipy \u7684 zero_method='wilcox' \u53ea\u4e22\u5f03**\u7cbe\u786e\u96f6**\uff0c\u8fd9 7 \u4e2a\u5dee\u503c\u4ecd\u7136\u8fdb\u5165\u79e9\u7edf\u8ba1\u3001\u6539\u53d8\u6709\u6548\u6837\u672c\u91cf\uff081 -> 8\uff09\u4ece\u800c\u6539\u53d8 p\u3002",
+  "tie": 40,
+  "wilcoxon_method_used": "scipy.stats.wilcoxon(diffs): method='auto' -> approx (verified bit-for-bit against explicit re-runs: approx=0.7736881134819296, exact=0.84375); zero_method='wilcox', two-sided",
+  "wilcoxon_p": 0.7736881134819296,
+  "wilcoxon_statistic": 16.0,
+  "win": 1
+ },
+ "root_cause": {
+  "minimal_repro": "terms=[1.0,1.0,1.0,1/3,1.0]; py3.13 sum=4.333333333333333, py3.10 sum=4.333333333333334",
+  "note": "CPython 3.12 \u8d77\u6d6e\u70b9 sum() \u6539\u4e3a Neumaier \u8865\u507f\u6c42\u548c\uff0c\u6545\u4efb\u4f55 sum(float list) \u7684\u53d6\u503c\u4f9d\u8d56 Python \u7248\u672c\uff08\u22641 ULP\uff09\u3002\u672c\u4ed3\u81ea\u7814\u4ee3\u7801\u53ea\u6709\u4e24\u5904\uff1ascripts/metrics_tcpdbench.py \u7b2c 49 \u884c\uff08recall\uff09\u4e0e\u7b2c 107 \u884c\uff08covering\uff09\u3002",
+  "reported_values_affected": false,
+  "reported_values_note": "\u8bba\u6587\u6309 4 \u4f4d\u5c0f\u6570\u62a5\u544a\uff0c\u22641 ULP \u4e0d\u5f71\u54cd\u4efb\u4f55\u5df2\u62a5\u544a\u6570\u5b57"
+ },
+ "script": "experiments/analyze_paired_tests.py",
+ "test_1_binseg_vs_pelt": {
+  "loss": 7,
+  "mean_delta_f1": 0.016356967315629325,
+  "median_binseg": 0.7385740402193784,
+  "median_pelt": 0.7536231884057971,
+  "n": 41,
+  "n_nonzero_diffs": 15,
+  "paper_reports": {
+   "loss": 7,
+   "mean_delta_f1": 0.0164,
+   "median_binseg": 0.7386,
+   "median_pelt": 0.7536,
+   "n": 41,
+   "tie": 26,
+   "wilcoxon_p": 0.691,
+   "win": 8
+  },
+  "tie": 26,
+  "wilcoxon_method_used": "scipy.stats.wilcoxon(diffs): method='auto' -> approx (verified bit-for-bit against explicit re-runs: approx=0.6909447568979337, exact=0.7197265625); zero_method='wilcox', two-sided",
+  "wilcoxon_p": 0.6909447568979337,
+  "wilcoxon_statistic": 53.0,
+  "win": 8
+ },
+ "test_2_floor_vs_q5": {
+  "loss": 0,
+  "mean_delta_f1": 0.0007070277497622465,
+  "n": 41,
+  "n_nonzero_diffs": 1,
+  "paper_reports": {
+   "mean_delta_f1": 0.000707,
+   "n": 41,
+   "n_changed": 1,
+   "wilcoxon_p": 0.317
+  },
+  "tie": 40,
+  "wilcoxon_method_used": "scipy.stats.wilcoxon(diffs): method='auto' -> approx (verified bit-for-bit against explicit re-runs: approx=0.31731050786291415, exact=1.0); zero_method='wilcox', two-sided",
+  "wilcoxon_p": 0.31731050786291415,
+  "wilcoxon_statistic": 0.0,
+  "win": 1
+ }
+}

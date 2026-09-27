@@ -1,0 +1,27 @@
+{
+  "cases": [
+    {
+      "noise": "ar1_05",
+      "phi": 0.5,
+      "ratio_pred": 0.7071067811865476,
+      "ratio_meas_mean": 0.6998587577199853,
+      "ratio_meas_sd": 0.01280167796461439,
+      "ratio_n": 6,
+      "rho_d_pred": -0.25,
+      "rho_d_meas": -0.2584070209423648,
+      "rho_d_after_max0": 0.0
+    },
+    {
+      "noise": "ar1_09",
+      "phi": 0.9,
+      "ratio_pred": 0.3162277660168379,
+      "ratio_meas_mean": 0.31424925714273927,
+      "ratio_meas_sd": 0.002269590217294828,
+      "ratio_n": 6,
+      "rho_d_pred": -0.04999999999999999,
+      "rho_d_meas": -0.057228881557388096,
+      "rho_d_after_max0": 0.0
+    }
+  ],
+  "note": "\u03c3\u0302/\u03c3 \u9884\u6d4b = sqrt(1-\u03c6)\uff1b\u03c1_d \u9884\u6d4b = -(1-\u03c6)/2"
+}

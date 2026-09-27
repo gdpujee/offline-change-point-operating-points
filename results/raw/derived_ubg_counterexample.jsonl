@@ -1,0 +1,1 @@
+{"Q": 256, "base_cps": [253], "floor_active": true, "floor_cps": [], "identical": false, "n": 512, "phi": -0.8, "sample_sd": 1.0, "seed": 0, "shift": 0.878, "sigmahat2_hand": 1.9904406125802452, "sigmahat2_impl": 1.9904406125802452}

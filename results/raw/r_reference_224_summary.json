@@ -1,0 +1,54 @@
+{
+  "amoc": {
+    "has_official_ref": 37,
+    "r_fail": 1,
+    "r_skip_multidim": 4,
+    "r_success": 37,
+    "r_vs_official_diff": 0,
+    "r_vs_official_exact": 37,
+    "r_vs_official_uncomparable": 5,
+    "r_vs_python_diff": 0,
+    "r_vs_python_exact": 37,
+    "r_vs_python_uncomparable": 5,
+    "runs": 42
+  },
+  "binseg": {
+    "has_official_ref": 37,
+    "r_fail": 1,
+    "r_skip_multidim": 4,
+    "r_success": 37,
+    "r_vs_official_diff": 0,
+    "r_vs_official_exact": 37,
+    "r_vs_official_uncomparable": 5,
+    "r_vs_python_diff": 0,
+    "r_vs_python_exact": 37,
+    "r_vs_python_uncomparable": 5,
+    "runs": 42
+  },
+  "pelt": {
+    "has_official_ref": 37,
+    "r_fail": 1,
+    "r_skip_multidim": 4,
+    "r_success": 37,
+    "r_vs_official_diff": 0,
+    "r_vs_official_exact": 37,
+    "r_vs_official_uncomparable": 5,
+    "r_vs_python_diff": 0,
+    "r_vs_python_exact": 37,
+    "r_vs_python_uncomparable": 5,
+    "runs": 42
+  },
+  "segneigh": {
+    "has_official_ref": 37,
+    "r_fail": 1,
+    "r_skip_multidim": 4,
+    "r_success": 37,
+    "r_vs_official_diff": 0,
+    "r_vs_official_exact": 37,
+    "r_vs_official_uncomparable": 5,
+    "r_vs_python_diff": 0,
+    "r_vs_python_exact": 37,
+    "r_vs_python_uncomparable": 5,
+    "runs": 42
+  }
+}

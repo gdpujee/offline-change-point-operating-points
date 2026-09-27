@@ -1,0 +1,272 @@
+{
+  "counterexample": {
+    "n": 512,
+    "phi": -0.8,
+    "seed": 0,
+    "shift": 0.878,
+    "Q": 256,
+    "sample_sd": 1.0,
+    "sigmahat2_impl": 1.9904406125802452,
+    "sigmahat2_hand": 1.9904406125802452,
+    "floor_active": true,
+    "base_cps": [
+      253
+    ],
+    "floor_cps": [],
+    "identical": false
+  },
+  "tcpd": {
+    "n_series": 41,
+    "max_sigmahat2": 1.031619785682403,
+    "max_dataset": "quality_control_5",
+    "all_floor_inactive": true,
+    "rows": [
+      {
+        "dataset": "quality_control_5",
+        "n": 325,
+        "sigmahat2": 1.031619785682403,
+        "floor_inactive": true
+      },
+      {
+        "dataset": "quality_control_2",
+        "n": 283,
+        "sigmahat2": 0.6069365276096268,
+        "floor_inactive": true
+      },
+      {
+        "dataset": "nile",
+        "n": 100,
+        "sigmahat2": 0.46436714587368066,
+        "floor_inactive": true
+      },
+      {
+        "dataset": "quality_control_3",
+        "n": 366,
+        "sigmahat2": 0.38358291322446564,
+        "floor_inactive": true
+      },
+      {
+        "dataset": "seatbelts",
+        "n": 192,
+        "sigmahat2": 0.23178818590284708,
+        "floor_inactive": true
+      },
+      {
+        "dataset": "quality_control_1",
+        "n": 313,
+        "sigmahat2": 0.20836468763014693,
+        "floor_inactive": true
+      },
+      {
+        "dataset": "centralia",
+        "n": 15,
+        "sigmahat2": 0.11069348328782057,
+        "floor_inactive": true
+      },
+      {
+        "dataset": "lga_passengers",
+        "n": 468,
+        "sigmahat2": 0.1064075741123393,
+        "floor_inactive": true
+      },
+      {
+        "dataset": "quality_control_4",
+        "n": 500,
+        "sigmahat2": 0.08146998504991941,
+        "floor_inactive": true
+      },
+      {
+        "dataset": "well_log",
+        "n": 675,
+        "sigmahat2": 0.0761438845427094,
+        "floor_inactive": true
+      },
+      {
+        "dataset": "jfk_passengers",
+        "n": 468,
+        "sigmahat2": 0.07342814167136567,
+        "floor_inactive": true
+      },
+      {
+        "dataset": "ozone",
+        "n": 54,
+        "sigmahat2": 0.06967168856795405,
+        "floor_inactive": true
+      },
+      {
+        "dataset": "construction",
+        "n": 319,
+        "sigmahat2": 0.044365670001942754,
+        "floor_inactive": true
+      },
+      {
+        "dataset": "iceland_tourism",
+        "n": 199,
+        "sigmahat2": 0.04016924576764674,
+        "floor_inactive": true
+      },
+      {
+        "dataset": "gdp_croatia",
+        "n": 24,
+        "sigmahat2": 0.02744883842502324,
+        "floor_inactive": true
+      },
+      {
+        "dataset": "debt_ireland",
+        "n": 21,
+        "sigmahat2": 0.022816652680779256,
+        "floor_inactive": true
+      },
+      {
+        "dataset": "robocalls",
+        "n": 52,
+        "sigmahat2": 0.021312634813356622,
+        "floor_inactive": true
+      },
+      {
+        "dataset": "unemployment_nl",
+        "n": 214,
+        "sigmahat2": 0.01822910118166606,
+        "floor_inactive": true
+      },
+      {
+        "dataset": "scanline_126007",
+        "n": 481,
+        "sigmahat2": 0.014974141926572903,
+        "floor_inactive": true
+      },
+      {
+        "dataset": "homeruns",
+        "n": 118,
+        "sigmahat2": 0.012072319608061629,
+        "floor_inactive": true
+      },
+      {
+        "dataset": "gdp_iran",
+        "n": 58,
+        "sigmahat2": 0.010182318542365858,
+        "floor_inactive": true
+      },
+      {
+        "dataset": "gdp_argentina",
+        "n": 59,
+        "sigmahat2": 0.010050410067472653,
+        "floor_inactive": true
+      },
+      {
+        "dataset": "rail_lines",
+        "n": 37,
+        "sigmahat2": 0.007984931240991092,
+        "floor_inactive": true
+      },
+      {
+        "dataset": "brent_spot",
+        "n": 500,
+        "sigmahat2": 0.006760902188777515,
+        "floor_inactive": true
+      },
+      {
+        "dataset": "occupancy",
+        "n": 509,
+        "sigmahat2": 0.006385279141823704,
+        "floor_inactive": true
+      },
+      {
+        "dataset": "bee_waggle_6",
+        "n": 609,
+        "sigmahat2": 0.006074233159951613,
+        "floor_inactive": true
+      },
+      {
+        "dataset": "measles",
+        "n": 991,
+        "sigmahat2": 0.005971565339018916,
+        "floor_inactive": true
+      },
+      {
+        "dataset": "global_co2",
+        "n": 104,
+        "sigmahat2": 0.005390052172724381,
+        "floor_inactive": true
+      },
+      {
+        "dataset": "usd_isk",
+        "n": 247,
+        "sigmahat2": 0.004191231005427865,
+        "floor_inactive": true
+      },
+      {
+        "dataset": "run_log",
+        "n": 376,
+        "sigmahat2": 0.0029712996747041248,
+        "floor_inactive": true
+      },
+      {
+        "dataset": "gdp_japan",
+        "n": 58,
+        "sigmahat2": 0.0026294144784758454,
+        "floor_inactive": true
+      },
+      {
+        "dataset": "apple",
+        "n": 622,
+        "sigmahat2": 0.0025063473250747466,
+        "floor_inactive": true
+      },
+      {
+        "dataset": "shanghai_license",
+        "n": 205,
+        "sigmahat2": 0.0008079499542156485,
+        "floor_inactive": true
+      },
+      {
+        "dataset": "ratner_stock",
+        "n": 600,
+        "sigmahat2": 0.0006792664852933538,
+        "floor_inactive": true
+      },
+      {
+        "dataset": "co2_canada",
+        "n": 215,
+        "sigmahat2": 0.0006613604114586077,
+        "floor_inactive": true
+      },
+      {
+        "dataset": "businv",
+        "n": 330,
+        "sigmahat2": 0.0005346831467630077,
+        "floor_inactive": true
+      },
+      {
+        "dataset": "scanline_42049",
+        "n": 481,
+        "sigmahat2": 0.00031394775484851184,
+        "floor_inactive": true
+      },
+      {
+        "dataset": "bank",
+        "n": 581,
+        "sigmahat2": 0.0001297214082210927,
+        "floor_inactive": true
+      },
+      {
+        "dataset": "children_per_woman",
+        "n": 301,
+        "sigmahat2": 4.682424704703591e-05,
+        "floor_inactive": true
+      },
+      {
+        "dataset": "bitcoin",
+        "n": 774,
+        "sigmahat2": 4.187123070683961e-05,
+        "floor_inactive": true
+      },
+      {
+        "dataset": "us_population",
+        "n": 816,
+        "sigmahat2": 3.3206345153291316e-06,
+        "floor_inactive": true
+      }
+    ]
+  }
+}

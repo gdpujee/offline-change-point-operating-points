@@ -1,0 +1,1500 @@
+{
+ "eps": 1e-09,
+ "tcpd": {
+  "proposed": "sc_pelt",
+  "reference": "binseg",
+  "baselines_for_upper_bound": [
+   "amoc",
+   "binseg",
+   "binseg_textbook",
+   "pelt",
+   "pelt_bic",
+   "segneigh"
+  ],
+  "degenerate_excluded": "zero",
+  "n_datasets": 41,
+  "n_lose": 18,
+  "n_win": 11,
+  "n_tie": 12,
+  "mean_margin_vs_reference": 0.045484895042776224,
+  "median_margin_of_losses": 0.15057885849091618,
+  "max_margin_vs_reference": 0.842717258261934,
+  "n_lose_to_best_of_six": 19,
+  "signature": {
+   "over_detection": 15,
+   "under_detection": 0,
+   "same_k": 3,
+   "median_dk_on_losses": 1.0,
+   "max_dk_on_losses": 17.0
+  },
+  "losses": [
+   {
+    "dataset": "measles",
+    "f1_proposed": 0.10465116279069767,
+    "f1_reference": 0.9473684210526316,
+    "margin_vs_reference": 0.842717258261934,
+    "k_proposed": 17.0,
+    "k_reference": 0.0,
+    "best_baseline": "amoc",
+    "f1_best_baseline": 0.9473684210526316,
+    "margin_vs_best": 0.842717258261934,
+    "loses_to_reference": true,
+    "loses_to_best": true
+   },
+   {
+    "dataset": "homeruns",
+    "f1_proposed": 0.3973063973063973,
+    "f1_reference": 0.8118811881188119,
+    "margin_vs_reference": 0.41457479081241466,
+    "k_proposed": 2.0,
+    "k_reference": 1.0,
+    "best_baseline": "amoc",
+    "f1_best_baseline": 0.8118811881188119,
+    "margin_vs_best": 0.41457479081241466,
+    "loses_to_reference": true,
+    "loses_to_best": true
+   },
+   {
+    "dataset": "us_population",
+    "f1_proposed": 0.3200000000000001,
+    "f1_reference": 0.6666666666666666,
+    "margin_vs_reference": 0.3466666666666665,
+    "k_proposed": 4.0,
+    "k_reference": 3.0,
+    "best_baseline": "amoc",
+    "f1_best_baseline": 1.0,
+    "margin_vs_best": 0.6799999999999999,
+    "loses_to_reference": true,
+    "loses_to_best": true
+   },
+   {
+    "dataset": "bank",
+    "f1_proposed": 0.10526315789473681,
+    "f1_reference": 0.4,
+    "margin_vs_reference": 0.2947368421052632,
+    "k_proposed": 17.0,
+    "k_reference": 3.0,
+    "best_baseline": "amoc",
+    "f1_best_baseline": 0.6666666666666666,
+    "margin_vs_best": 0.5614035087719298,
+    "loses_to_reference": true,
+    "loses_to_best": true
+   },
+   {
+    "dataset": "children_per_woman",
+    "f1_proposed": 0.3366336633663367,
+    "f1_reference": 0.6175115207373272,
+    "margin_vs_reference": 0.28087785737099047,
+    "k_proposed": 2.0,
+    "k_reference": 1.0,
+    "best_baseline": "amoc",
+    "f1_best_baseline": 0.6175115207373272,
+    "margin_vs_best": 0.28087785737099047,
+    "loses_to_reference": true,
+    "loses_to_best": true
+   },
+   {
+    "dataset": "apple",
+    "f1_proposed": 0.5428571428571429,
+    "f1_reference": 0.8041237113402062,
+    "margin_vs_reference": 0.2612665684830633,
+    "k_proposed": 4.0,
+    "k_reference": 3.0,
+    "best_baseline": "binseg",
+    "f1_best_baseline": 0.8041237113402062,
+    "margin_vs_best": 0.2612665684830633,
+    "loses_to_reference": true,
+    "loses_to_best": true
+   },
+   {
+    "dataset": "global_co2",
+    "f1_proposed": 0.7536231884057971,
+    "f1_reference": 0.9285714285714286,
+    "margin_vs_reference": 0.17494824016563149,
+    "k_proposed": 2.0,
+    "k_reference": 1.0,
+    "best_baseline": "amoc",
+    "f1_best_baseline": 0.9285714285714286,
+    "margin_vs_best": 0.17494824016563149,
+    "loses_to_reference": true,
+    "loses_to_best": true
+   },
+   {
+    "dataset": "iceland_tourism",
+    "f1_proposed": 0.4864864864864864,
+    "f1_reference": 0.6428571428571429,
+    "margin_vs_reference": 0.1563706563706565,
+    "k_proposed": 2.0,
+    "k_reference": 1.0,
+    "best_baseline": "amoc",
+    "f1_best_baseline": 0.6428571428571429,
+    "margin_vs_best": 0.1563706563706565,
+    "loses_to_reference": true,
+    "loses_to_best": true
+   },
+   {
+    "dataset": "shanghai_license",
+    "f1_proposed": 0.7131782945736432,
+    "f1_reference": 0.8679245283018869,
+    "margin_vs_reference": 0.1547462337282437,
+    "k_proposed": 2.0,
+    "k_reference": 1.0,
+    "best_baseline": "amoc",
+    "f1_best_baseline": 0.8679245283018869,
+    "margin_vs_best": 0.1547462337282437,
+    "loses_to_reference": true,
+    "loses_to_best": true
+   },
+   {
+    "dataset": "quality_control_4",
+    "f1_proposed": 0.7263157894736841,
+    "f1_reference": 0.8727272727272728,
+    "margin_vs_reference": 0.14641148325358866,
+    "k_proposed": 4.0,
+    "k_reference": 4.0,
+    "best_baseline": "binseg",
+    "f1_best_baseline": 0.8727272727272728,
+    "margin_vs_best": 0.14641148325358866,
+    "loses_to_reference": true,
+    "loses_to_best": true
+   },
+   {
+    "dataset": "jfk_passengers",
+    "f1_proposed": 0.6495726495726495,
+    "f1_reference": 0.7755102040816326,
+    "margin_vs_reference": 0.12593755450898314,
+    "k_proposed": 2.0,
+    "k_reference": 1.0,
+    "best_baseline": "amoc",
+    "f1_best_baseline": 0.7755102040816326,
+    "margin_vs_best": 0.12593755450898314,
+    "loses_to_reference": true,
+    "loses_to_best": true
+   },
+   {
+    "dataset": "unemployment_nl",
+    "f1_proposed": 0.7730061349693252,
+    "f1_reference": 0.8764044943820225,
+    "margin_vs_reference": 0.10339835941269726,
+    "k_proposed": 3.0,
+    "k_reference": 3.0,
+    "best_baseline": "binseg",
+    "f1_best_baseline": 0.8764044943820225,
+    "margin_vs_best": 0.10339835941269726,
+    "loses_to_reference": true,
+    "loses_to_best": true
+   },
+   {
+    "dataset": "seatbelts",
+    "f1_proposed": 0.5833333333333334,
+    "f1_reference": 0.6829268292682927,
+    "margin_vs_reference": 0.09959349593495936,
+    "k_proposed": 3.0,
+    "k_reference": 2.0,
+    "best_baseline": "binseg",
+    "f1_best_baseline": 0.6829268292682927,
+    "margin_vs_best": 0.09959349593495936,
+    "loses_to_reference": true,
+    "loses_to_best": true
+   },
+   {
+    "dataset": "gdp_iran",
+    "f1_proposed": 0.39455782312925164,
+    "f1_reference": 0.4915254237288135,
+    "margin_vs_reference": 0.09696760059956189,
+    "k_proposed": 2.0,
+    "k_reference": 1.0,
+    "best_baseline": "amoc",
+    "f1_best_baseline": 0.4915254237288135,
+    "margin_vs_best": 0.09696760059956189,
+    "loses_to_reference": true,
+    "loses_to_best": true
+   },
+   {
+    "dataset": "construction",
+    "f1_proposed": 0.6341463414634148,
+    "f1_reference": 0.7090909090909091,
+    "margin_vs_reference": 0.07494456762749435,
+    "k_proposed": 5.0,
+    "k_reference": 4.0,
+    "best_baseline": "binseg",
+    "f1_best_baseline": 0.7090909090909091,
+    "margin_vs_best": 0.07494456762749435,
+    "loses_to_reference": true,
+    "loses_to_best": true
+   },
+   {
+    "dataset": "businv",
+    "f1_proposed": 0.3125,
+    "f1_reference": 0.3703703703703704,
+    "margin_vs_reference": 0.057870370370370405,
+    "k_proposed": 3.0,
+    "k_reference": 2.0,
+    "best_baseline": "amoc",
+    "f1_best_baseline": 0.4545454545454546,
+    "margin_vs_best": 0.14204545454545459,
+    "loses_to_reference": true,
+    "loses_to_best": true
+   },
+   {
+    "dataset": "co2_canada",
+    "f1_proposed": 0.6613545816733066,
+    "f1_reference": 0.6905689789555729,
+    "margin_vs_reference": 0.02921439728226627,
+    "k_proposed": 2.0,
+    "k_reference": 2.0,
+    "best_baseline": "binseg",
+    "f1_best_baseline": 0.6905689789555729,
+    "margin_vs_best": 0.02921439728226627,
+    "loses_to_reference": true,
+    "loses_to_best": true
+   },
+   {
+    "dataset": "bee_waggle_6",
+    "f1_proposed": 0.3589743589743589,
+    "f1_reference": 0.3880597014925373,
+    "margin_vs_reference": 0.029085342518178403,
+    "k_proposed": 8.0,
+    "k_reference": 3.0,
+    "best_baseline": "amoc",
+    "f1_best_baseline": 0.6341463414634146,
+    "margin_vs_best": 0.2751719824890557,
+    "loses_to_reference": true,
+    "loses_to_best": true
+   }
+  ],
+  "all": [
+   {
+    "dataset": "apple",
+    "f1_proposed": 0.5428571428571429,
+    "f1_reference": 0.8041237113402062,
+    "margin_vs_reference": 0.2612665684830633,
+    "k_proposed": 4.0,
+    "k_reference": 3.0,
+    "best_baseline": "binseg",
+    "f1_best_baseline": 0.8041237113402062,
+    "margin_vs_best": 0.2612665684830633,
+    "loses_to_reference": true,
+    "loses_to_best": true
+   },
+   {
+    "dataset": "bank",
+    "f1_proposed": 0.10526315789473681,
+    "f1_reference": 0.4,
+    "margin_vs_reference": 0.2947368421052632,
+    "k_proposed": 17.0,
+    "k_reference": 3.0,
+    "best_baseline": "amoc",
+    "f1_best_baseline": 0.6666666666666666,
+    "margin_vs_best": 0.5614035087719298,
+    "loses_to_reference": true,
+    "loses_to_best": true
+   },
+   {
+    "dataset": "bee_waggle_6",
+    "f1_proposed": 0.3589743589743589,
+    "f1_reference": 0.3880597014925373,
+    "margin_vs_reference": 0.029085342518178403,
+    "k_proposed": 8.0,
+    "k_reference": 3.0,
+    "best_baseline": "amoc",
+    "f1_best_baseline": 0.6341463414634146,
+    "margin_vs_best": 0.2751719824890557,
+    "loses_to_reference": true,
+    "loses_to_best": true
+   },
+   {
+    "dataset": "bitcoin",
+    "f1_proposed": 0.6724637681159422,
+    "f1_reference": 0.42573099415204685,
+    "margin_vs_reference": -0.24673277396389537,
+    "k_proposed": 4.0,
+    "k_reference": 4.0,
+    "best_baseline": "pelt",
+    "f1_best_baseline": 0.672463768115942,
+    "margin_vs_best": -2.220446049250313e-16,
+    "loses_to_reference": false,
+    "loses_to_best": false
+   },
+   {
+    "dataset": "brent_spot",
+    "f1_proposed": 0.5863678804855275,
+    "f1_reference": 0.48343373493975905,
+    "margin_vs_reference": -0.10293414554576841,
+    "k_proposed": 5.0,
+    "k_reference": 3.0,
+    "best_baseline": "pelt_bic",
+    "f1_best_baseline": 0.5863678804855276,
+    "margin_vs_best": 1.1102230246251565e-16,
+    "loses_to_reference": false,
+    "loses_to_best": false
+   },
+   {
+    "dataset": "businv",
+    "f1_proposed": 0.3125,
+    "f1_reference": 0.3703703703703704,
+    "margin_vs_reference": 0.057870370370370405,
+    "k_proposed": 3.0,
+    "k_reference": 2.0,
+    "best_baseline": "amoc",
+    "f1_best_baseline": 0.4545454545454546,
+    "margin_vs_best": 0.14204545454545459,
+    "loses_to_reference": true,
+    "loses_to_best": true
+   },
+   {
+    "dataset": "centralia",
+    "f1_proposed": 0.9090909090909094,
+    "f1_reference": 0.9090909090909092,
+    "margin_vs_reference": -2.220446049250313e-16,
+    "k_proposed": 1.0,
+    "k_reference": 1.0,
+    "best_baseline": "binseg",
+    "f1_best_baseline": 0.9090909090909092,
+    "margin_vs_best": -2.220446049250313e-16,
+    "loses_to_reference": false,
+    "loses_to_best": false
+   },
+   {
+    "dataset": "children_per_woman",
+    "f1_proposed": 0.3366336633663367,
+    "f1_reference": 0.6175115207373272,
+    "margin_vs_reference": 0.28087785737099047,
+    "k_proposed": 2.0,
+    "k_reference": 1.0,
+    "best_baseline": "amoc",
+    "f1_best_baseline": 0.6175115207373272,
+    "margin_vs_best": 0.28087785737099047,
+    "loses_to_reference": true,
+    "loses_to_best": true
+   },
+   {
+    "dataset": "co2_canada",
+    "f1_proposed": 0.6613545816733066,
+    "f1_reference": 0.6905689789555729,
+    "margin_vs_reference": 0.02921439728226627,
+    "k_proposed": 2.0,
+    "k_reference": 2.0,
+    "best_baseline": "binseg",
+    "f1_best_baseline": 0.6905689789555729,
+    "margin_vs_best": 0.02921439728226627,
+    "loses_to_reference": true,
+    "loses_to_best": true
+   },
+   {
+    "dataset": "construction",
+    "f1_proposed": 0.6341463414634148,
+    "f1_reference": 0.7090909090909091,
+    "margin_vs_reference": 0.07494456762749435,
+    "k_proposed": 5.0,
+    "k_reference": 4.0,
+    "best_baseline": "binseg",
+    "f1_best_baseline": 0.7090909090909091,
+    "margin_vs_best": 0.07494456762749435,
+    "loses_to_reference": true,
+    "loses_to_best": true
+   },
+   {
+    "dataset": "debt_ireland",
+    "f1_proposed": 0.7603305785123966,
+    "f1_reference": 0.7603305785123966,
+    "margin_vs_reference": 0.0,
+    "k_proposed": 1.0,
+    "k_reference": 1.0,
+    "best_baseline": "binseg",
+    "f1_best_baseline": 0.7603305785123966,
+    "margin_vs_best": 0.0,
+    "loses_to_reference": false,
+    "loses_to_best": false
+   },
+   {
+    "dataset": "gdp_argentina",
+    "f1_proposed": 0.9473684210526313,
+    "f1_reference": 0.888888888888889,
+    "margin_vs_reference": -0.058479532163742354,
+    "k_proposed": 2.0,
+    "k_reference": 1.0,
+    "best_baseline": "pelt_bic",
+    "f1_best_baseline": 0.9473684210526316,
+    "margin_vs_best": 3.3306690738754696e-16,
+    "loses_to_reference": false,
+    "loses_to_best": false
+   },
+   {
+    "dataset": "gdp_croatia",
+    "f1_proposed": 0.5833333333333334,
+    "f1_reference": 0.5833333333333333,
+    "margin_vs_reference": -1.1102230246251565e-16,
+    "k_proposed": 1.0,
+    "k_reference": 1.0,
+    "best_baseline": "amoc",
+    "f1_best_baseline": 0.5833333333333333,
+    "margin_vs_best": -1.1102230246251565e-16,
+    "loses_to_reference": false,
+    "loses_to_best": false
+   },
+   {
+    "dataset": "gdp_iran",
+    "f1_proposed": 0.39455782312925164,
+    "f1_reference": 0.4915254237288135,
+    "margin_vs_reference": 0.09696760059956189,
+    "k_proposed": 2.0,
+    "k_reference": 1.0,
+    "best_baseline": "amoc",
+    "f1_best_baseline": 0.4915254237288135,
+    "margin_vs_best": 0.09696760059956189,
+    "loses_to_reference": true,
+    "loses_to_best": true
+   },
+   {
+    "dataset": "gdp_japan",
+    "f1_proposed": 0.6153846153846153,
+    "f1_reference": 0.6153846153846154,
+    "margin_vs_reference": 1.1102230246251565e-16,
+    "k_proposed": 1.0,
+    "k_reference": 1.0,
+    "best_baseline": "amoc",
+    "f1_best_baseline": 0.6153846153846154,
+    "margin_vs_best": 1.1102230246251565e-16,
+    "loses_to_reference": false,
+    "loses_to_best": false
+   },
+   {
+    "dataset": "global_co2",
+    "f1_proposed": 0.7536231884057971,
+    "f1_reference": 0.9285714285714286,
+    "margin_vs_reference": 0.17494824016563149,
+    "k_proposed": 2.0,
+    "k_reference": 1.0,
+    "best_baseline": "amoc",
+    "f1_best_baseline": 0.9285714285714286,
+    "margin_vs_best": 0.17494824016563149,
+    "loses_to_reference": true,
+    "loses_to_best": true
+   },
+   {
+    "dataset": "homeruns",
+    "f1_proposed": 0.3973063973063973,
+    "f1_reference": 0.8118811881188119,
+    "margin_vs_reference": 0.41457479081241466,
+    "k_proposed": 2.0,
+    "k_reference": 1.0,
+    "best_baseline": "amoc",
+    "f1_best_baseline": 0.8118811881188119,
+    "margin_vs_best": 0.41457479081241466,
+    "loses_to_reference": true,
+    "loses_to_best": true
+   },
+   {
+    "dataset": "iceland_tourism",
+    "f1_proposed": 0.4864864864864864,
+    "f1_reference": 0.6428571428571429,
+    "margin_vs_reference": 0.1563706563706565,
+    "k_proposed": 2.0,
+    "k_reference": 1.0,
+    "best_baseline": "amoc",
+    "f1_best_baseline": 0.6428571428571429,
+    "margin_vs_best": 0.1563706563706565,
+    "loses_to_reference": true,
+    "loses_to_best": true
+   },
+   {
+    "dataset": "jfk_passengers",
+    "f1_proposed": 0.6495726495726495,
+    "f1_reference": 0.7755102040816326,
+    "margin_vs_reference": 0.12593755450898314,
+    "k_proposed": 2.0,
+    "k_reference": 1.0,
+    "best_baseline": "amoc",
+    "f1_best_baseline": 0.7755102040816326,
+    "margin_vs_best": 0.12593755450898314,
+    "loses_to_reference": true,
+    "loses_to_best": true
+   },
+   {
+    "dataset": "lga_passengers",
+    "f1_proposed": 0.453551912568306,
+    "f1_reference": 0.43820224719101125,
+    "margin_vs_reference": -0.015349665377294763,
+    "k_proposed": 5.0,
+    "k_reference": 3.0,
+    "best_baseline": "pelt_bic",
+    "f1_best_baseline": 0.453551912568306,
+    "margin_vs_best": 0.0,
+    "loses_to_reference": false,
+    "loses_to_best": false
+   },
+   {
+    "dataset": "measles",
+    "f1_proposed": 0.10465116279069767,
+    "f1_reference": 0.9473684210526316,
+    "margin_vs_reference": 0.842717258261934,
+    "k_proposed": 17.0,
+    "k_reference": 0.0,
+    "best_baseline": "amoc",
+    "f1_best_baseline": 0.9473684210526316,
+    "margin_vs_best": 0.842717258261934,
+    "loses_to_reference": true,
+    "loses_to_best": true
+   },
+   {
+    "dataset": "nile",
+    "f1_proposed": 1.0,
+    "f1_reference": 1.0,
+    "margin_vs_reference": 0.0,
+    "k_proposed": 1.0,
+    "k_reference": 1.0,
+    "best_baseline": "amoc",
+    "f1_best_baseline": 1.0,
+    "margin_vs_best": 0.0,
+    "loses_to_reference": false,
+    "loses_to_best": false
+   },
+   {
+    "dataset": "occupancy",
+    "f1_proposed": 0.8042684639146309,
+    "f1_reference": 0.7490541532554068,
+    "margin_vs_reference": -0.05521431065922411,
+    "k_proposed": 8.0,
+    "k_reference": 5.0,
+    "best_baseline": "pelt_bic",
+    "f1_best_baseline": 0.8042684639146307,
+    "margin_vs_best": -2.220446049250313e-16,
+    "loses_to_reference": false,
+    "loses_to_best": false
+   },
+   {
+    "dataset": "ozone",
+    "f1_proposed": 1.0,
+    "f1_reference": 0.6495726495726496,
+    "margin_vs_reference": -0.3504273504273504,
+    "k_proposed": 2.0,
+    "k_reference": 2.0,
+    "best_baseline": "pelt",
+    "f1_best_baseline": 1.0,
+    "margin_vs_best": 0.0,
+    "loses_to_reference": false,
+    "loses_to_best": false
+   },
+   {
+    "dataset": "quality_control_1",
+    "f1_proposed": 1.0,
+    "f1_reference": 1.0,
+    "margin_vs_reference": 0.0,
+    "k_proposed": 1.0,
+    "k_reference": 1.0,
+    "best_baseline": "amoc",
+    "f1_best_baseline": 1.0,
+    "margin_vs_best": 0.0,
+    "loses_to_reference": false,
+    "loses_to_best": false
+   },
+   {
+    "dataset": "quality_control_2",
+    "f1_proposed": 1.0,
+    "f1_reference": 1.0,
+    "margin_vs_reference": 0.0,
+    "k_proposed": 1.0,
+    "k_reference": 1.0,
+    "best_baseline": "amoc",
+    "f1_best_baseline": 1.0,
+    "margin_vs_best": 0.0,
+    "loses_to_reference": false,
+    "loses_to_best": false
+   },
+   {
+    "dataset": "quality_control_3",
+    "f1_proposed": 1.0,
+    "f1_reference": 1.0,
+    "margin_vs_reference": 0.0,
+    "k_proposed": 1.0,
+    "k_reference": 1.0,
+    "best_baseline": "amoc",
+    "f1_best_baseline": 1.0,
+    "margin_vs_best": 0.0,
+    "loses_to_reference": false,
+    "loses_to_best": false
+   },
+   {
+    "dataset": "quality_control_4",
+    "f1_proposed": 0.7263157894736841,
+    "f1_reference": 0.8727272727272728,
+    "margin_vs_reference": 0.14641148325358866,
+    "k_proposed": 4.0,
+    "k_reference": 4.0,
+    "best_baseline": "binseg",
+    "f1_best_baseline": 0.8727272727272728,
+    "margin_vs_best": 0.14641148325358866,
+    "loses_to_reference": true,
+    "loses_to_best": true
+   },
+   {
+    "dataset": "quality_control_5",
+    "f1_proposed": 1.0,
+    "f1_reference": 1.0,
+    "margin_vs_reference": 0.0,
+    "k_proposed": 0.0,
+    "k_reference": 0.0,
+    "best_baseline": "amoc",
+    "f1_best_baseline": 1.0,
+    "margin_vs_best": 0.0,
+    "loses_to_reference": false,
+    "loses_to_best": false
+   },
+   {
+    "dataset": "rail_lines",
+    "f1_proposed": 0.8461538461538461,
+    "f1_reference": 0.8461538461538461,
+    "margin_vs_reference": 0.0,
+    "k_proposed": 1.0,
+    "k_reference": 1.0,
+    "best_baseline": "amoc",
+    "f1_best_baseline": 0.8461538461538461,
+    "margin_vs_best": 0.0,
+    "loses_to_reference": false,
+    "loses_to_best": false
+   },
+   {
+    "dataset": "ratner_stock",
+    "f1_proposed": 0.823529411764706,
+    "f1_reference": 0.8235294117647058,
+    "margin_vs_reference": -1.1102230246251565e-16,
+    "k_proposed": 2.0,
+    "k_reference": 2.0,
+    "best_baseline": "binseg",
+    "f1_best_baseline": 0.8235294117647058,
+    "margin_vs_best": -1.1102230246251565e-16,
+    "loses_to_reference": false,
+    "loses_to_best": false
+   },
+   {
+    "dataset": "robocalls",
+    "f1_proposed": 0.9655172413793103,
+    "f1_reference": 0.8,
+    "margin_vs_reference": -0.16551724137931023,
+    "k_proposed": 2.0,
+    "k_reference": 1.0,
+    "best_baseline": "pelt_bic",
+    "f1_best_baseline": 0.9655172413793104,
+    "margin_vs_best": 1.1102230246251565e-16,
+    "loses_to_reference": false,
+    "loses_to_best": false
+   },
+   {
+    "dataset": "run_log",
+    "f1_proposed": 1.0,
+    "f1_reference": 0.6486486486486487,
+    "margin_vs_reference": -0.3513513513513513,
+    "k_proposed": 9.0,
+    "k_reference": 3.0,
+    "best_baseline": "pelt_bic",
+    "f1_best_baseline": 1.0,
+    "margin_vs_best": 0.0,
+    "loses_to_reference": false,
+    "loses_to_best": false
+   },
+   {
+    "dataset": "scanline_126007",
+    "f1_proposed": 0.7589928057553957,
+    "f1_reference": 0.7385740402193784,
+    "margin_vs_reference": -0.02041876553601729,
+    "k_proposed": 8.0,
+    "k_reference": 5.0,
+    "best_baseline": "pelt",
+    "f1_best_baseline": 0.7589928057553957,
+    "margin_vs_best": 0.0,
+    "loses_to_reference": false,
+    "loses_to_best": false
+   },
+   {
+    "dataset": "scanline_42049",
+    "f1_proposed": 0.9095415117719948,
+    "f1_reference": 0.7134502923976608,
+    "margin_vs_reference": -0.19609121937433405,
+    "k_proposed": 7.0,
+    "k_reference": 3.0,
+    "best_baseline": "pelt_bic",
+    "f1_best_baseline": 0.9095415117719949,
+    "margin_vs_best": 1.1102230246251565e-16,
+    "loses_to_reference": false,
+    "loses_to_best": false
+   },
+   {
+    "dataset": "seatbelts",
+    "f1_proposed": 0.5833333333333334,
+    "f1_reference": 0.6829268292682927,
+    "margin_vs_reference": 0.09959349593495936,
+    "k_proposed": 3.0,
+    "k_reference": 2.0,
+    "best_baseline": "binseg",
+    "f1_best_baseline": 0.6829268292682927,
+    "margin_vs_best": 0.09959349593495936,
+    "loses_to_reference": true,
+    "loses_to_best": true
+   },
+   {
+    "dataset": "shanghai_license",
+    "f1_proposed": 0.7131782945736432,
+    "f1_reference": 0.8679245283018869,
+    "margin_vs_reference": 0.1547462337282437,
+    "k_proposed": 2.0,
+    "k_reference": 1.0,
+    "best_baseline": "amoc",
+    "f1_best_baseline": 0.8679245283018869,
+    "margin_vs_best": 0.1547462337282437,
+    "loses_to_reference": true,
+    "loses_to_best": true
+   },
+   {
+    "dataset": "unemployment_nl",
+    "f1_proposed": 0.7730061349693252,
+    "f1_reference": 0.8764044943820225,
+    "margin_vs_reference": 0.10339835941269726,
+    "k_proposed": 3.0,
+    "k_reference": 3.0,
+    "best_baseline": "binseg",
+    "f1_best_baseline": 0.8764044943820225,
+    "margin_vs_best": 0.10339835941269726,
+    "loses_to_reference": true,
+    "loses_to_best": true
+   },
+   {
+    "dataset": "us_population",
+    "f1_proposed": 0.3200000000000001,
+    "f1_reference": 0.6666666666666666,
+    "margin_vs_reference": 0.3466666666666665,
+    "k_proposed": 4.0,
+    "k_reference": 3.0,
+    "best_baseline": "amoc",
+    "f1_best_baseline": 1.0,
+    "margin_vs_best": 0.6799999999999999,
+    "loses_to_reference": true,
+    "loses_to_best": true
+   },
+   {
+    "dataset": "usd_isk",
+    "f1_proposed": 0.6565143824027071,
+    "f1_reference": 0.6565143824027072,
+    "margin_vs_reference": 1.1102230246251565e-16,
+    "k_proposed": 2.0,
+    "k_reference": 2.0,
+    "best_baseline": "amoc",
+    "f1_best_baseline": 0.785425101214575,
+    "margin_vs_best": 0.12891071881186789,
+    "loses_to_reference": false,
+    "loses_to_best": true
+   },
+   {
+    "dataset": "well_log",
+    "f1_proposed": 0.7971331873382439,
+    "f1_reference": 0.5342019543973942,
+    "margin_vs_reference": -0.26293123294084975,
+    "k_proposed": 13.0,
+    "k_reference": 3.0,
+    "best_baseline": "pelt_bic",
+    "f1_best_baseline": 0.7971331873382441,
+    "margin_vs_best": 2.220446049250313e-16,
+    "loses_to_reference": false,
+    "loses_to_best": false
+   }
+  ]
+ },
+ "synth": {
+  "proposed": "sc_v3",
+  "algorithms": [
+   "mbic_raw",
+   "binseg_raw",
+   "bic_var",
+   "sc_nofloor",
+   "sc_v3",
+   "zero"
+  ],
+  "n_cells": 18,
+  "cells": [
+   {
+    "noise": "ar1_09",
+    "k": 0,
+    "sigma": 1.0,
+    "alg": {
+     "mbic_raw": {
+      "k_pred": 43.166666666666664,
+      "f1": 0.0
+     },
+     "binseg_raw": {
+      "k_pred": 4.583333333333333,
+      "f1": 0.0
+     },
+     "bic_var": {
+      "k_pred": 74.5,
+      "f1": 0.0
+     },
+     "sc_nofloor": {
+      "k_pred": 347.4166666666667,
+      "f1": 0.0
+     },
+     "sc_v3": {
+      "k_pred": 74.5,
+      "f1": 0.0
+     },
+     "zero": {
+      "k_pred": 0.0,
+      "f1": 1.0
+     }
+    }
+   },
+   {
+    "noise": "ar1_09",
+    "k": 0,
+    "sigma": 10.0,
+    "alg": {
+     "mbic_raw": {
+      "k_pred": 1106.5,
+      "f1": 0.0
+     },
+     "binseg_raw": {
+      "k_pred": 5.0,
+      "f1": 0.0
+     },
+     "bic_var": {
+      "k_pred": 71.75,
+      "f1": 0.0
+     },
+     "sc_nofloor": {
+      "k_pred": 321.6666666666667,
+      "f1": 0.0
+     },
+     "sc_v3": {
+      "k_pred": 71.75,
+      "f1": 0.0
+     },
+     "zero": {
+      "k_pred": 0.0,
+      "f1": 1.0
+     }
+    }
+   },
+   {
+    "noise": "ar1_09",
+    "k": 5,
+    "sigma": 1.0,
+    "alg": {
+     "mbic_raw": {
+      "k_pred": 40.333333333333336,
+      "f1": 0.23188915739589278
+     },
+     "binseg_raw": {
+      "k_pred": 5.0,
+      "f1": 0.65
+     },
+     "bic_var": {
+      "k_pred": 29.666666666666668,
+      "f1": 0.42660033178609025
+     },
+     "sc_nofloor": {
+      "k_pred": 333.8333333333333,
+      "f1": 0.06777548548291072
+     },
+     "sc_v3": {
+      "k_pred": 29.666666666666668,
+      "f1": 0.42660033178609025
+     },
+     "zero": {
+      "k_pred": 0.0,
+      "f1": 0.0
+     }
+    }
+   },
+   {
+    "noise": "ar1_09",
+    "k": 5,
+    "sigma": 10.0,
+    "alg": {
+     "mbic_raw": {
+      "k_pred": 1105.1666666666667,
+      "f1": 0.023688869262272174
+     },
+     "binseg_raw": {
+      "k_pred": 5.0,
+      "f1": 0.6166666666666667
+     },
+     "bic_var": {
+      "k_pred": 22.666666666666668,
+      "f1": 0.46759444259444255
+     },
+     "sc_nofloor": {
+      "k_pred": 346.9166666666667,
+      "f1": 0.06789400578081328
+     },
+     "sc_v3": {
+      "k_pred": 22.666666666666668,
+      "f1": 0.46759444259444255
+     },
+     "zero": {
+      "k_pred": 0.0,
+      "f1": 0.0
+     }
+    }
+   },
+   {
+    "noise": "ar1_09",
+    "k": 20,
+    "sigma": 1.0,
+    "alg": {
+     "mbic_raw": {
+      "k_pred": 46.083333333333336,
+      "f1": 0.4909812331859947
+     },
+     "binseg_raw": {
+      "k_pred": 5.0,
+      "f1": 0.3
+     },
+     "bic_var": {
+      "k_pred": 21.583333333333332,
+      "f1": 0.48950352848657935
+     },
+     "sc_nofloor": {
+      "k_pred": 343.3333333333333,
+      "f1": 0.22847581930901828
+     },
+     "sc_v3": {
+      "k_pred": 21.583333333333332,
+      "f1": 0.48950352848657935
+     },
+     "zero": {
+      "k_pred": 0.0,
+      "f1": 0.0
+     }
+    }
+   },
+   {
+    "noise": "ar1_09",
+    "k": 20,
+    "sigma": 10.0,
+    "alg": {
+     "mbic_raw": {
+      "k_pred": 1108.4166666666667,
+      "f1": 0.0896245301124015
+     },
+     "binseg_raw": {
+      "k_pred": 5.0,
+      "f1": 0.2866666666666667
+     },
+     "bic_var": {
+      "k_pred": 17.666666666666668,
+      "f1": 0.5558721776936526
+     },
+     "sc_nofloor": {
+      "k_pred": 366.6666666666667,
+      "f1": 0.2274012618892288
+     },
+     "sc_v3": {
+      "k_pred": 17.666666666666668,
+      "f1": 0.5558721776936526
+     },
+     "zero": {
+      "k_pred": 0.0,
+      "f1": 0.0
+     }
+    }
+   },
+   {
+    "noise": "gauss",
+    "k": 0,
+    "sigma": 1.0,
+    "alg": {
+     "mbic_raw": {
+      "k_pred": 0.0,
+      "f1": 1.0
+     },
+     "binseg_raw": {
+      "k_pred": 0.0,
+      "f1": 1.0
+     },
+     "bic_var": {
+      "k_pred": 0.0,
+      "f1": 1.0
+     },
+     "sc_nofloor": {
+      "k_pred": 0.16666666666666666,
+      "f1": 0.9166666666666666
+     },
+     "sc_v3": {
+      "k_pred": 0.0,
+      "f1": 1.0
+     },
+     "zero": {
+      "k_pred": 0.0,
+      "f1": 1.0
+     }
+    }
+   },
+   {
+    "noise": "gauss",
+    "k": 0,
+    "sigma": 10.0,
+    "alg": {
+     "mbic_raw": {
+      "k_pred": 1949.4166666666667,
+      "f1": 0.0
+     },
+     "binseg_raw": {
+      "k_pred": 5.0,
+      "f1": 0.0
+     },
+     "bic_var": {
+      "k_pred": 0.0,
+      "f1": 1.0
+     },
+     "sc_nofloor": {
+      "k_pred": 0.08333333333333333,
+      "f1": 0.9166666666666666
+     },
+     "sc_v3": {
+      "k_pred": 0.0,
+      "f1": 1.0
+     },
+     "zero": {
+      "k_pred": 0.0,
+      "f1": 1.0
+     }
+    }
+   },
+   {
+    "noise": "gauss",
+    "k": 5,
+    "sigma": 1.0,
+    "alg": {
+     "mbic_raw": {
+      "k_pred": 4.75,
+      "f1": 0.8949074074074074
+     },
+     "binseg_raw": {
+      "k_pred": 4.75,
+      "f1": 0.9138888888888889
+     },
+     "bic_var": {
+      "k_pred": 4.833333333333333,
+      "f1": 0.9462962962962963
+     },
+     "sc_nofloor": {
+      "k_pred": 5.083333333333333,
+      "f1": 0.9416666666666668
+     },
+     "sc_v3": {
+      "k_pred": 4.833333333333333,
+      "f1": 0.9462962962962963
+     },
+     "zero": {
+      "k_pred": 0.0,
+      "f1": 0.0
+     }
+    }
+   },
+   {
+    "noise": "gauss",
+    "k": 5,
+    "sigma": 10.0,
+    "alg": {
+     "mbic_raw": {
+      "k_pred": 1951.5833333333333,
+      "f1": 0.014784166470024673
+     },
+     "binseg_raw": {
+      "k_pred": 5.0,
+      "f1": 0.9166666666666666
+     },
+     "bic_var": {
+      "k_pred": 4.583333333333333,
+      "f1": 0.9074074074074074
+     },
+     "sc_nofloor": {
+      "k_pred": 4.75,
+      "f1": 0.9090909090909091
+     },
+     "sc_v3": {
+      "k_pred": 4.583333333333333,
+      "f1": 0.9074074074074074
+     },
+     "zero": {
+      "k_pred": 0.0,
+      "f1": 0.0
+     }
+    }
+   },
+   {
+    "noise": "gauss",
+    "k": 20,
+    "sigma": 1.0,
+    "alg": {
+     "mbic_raw": {
+      "k_pred": 16.5,
+      "f1": 0.8221011396011396
+     },
+     "binseg_raw": {
+      "k_pred": 5.0,
+      "f1": 0.36000000000000004
+     },
+     "bic_var": {
+      "k_pred": 10.583333333333334,
+      "f1": 0.5983173777376676
+     },
+     "sc_nofloor": {
+      "k_pred": 17.916666666666668,
+      "f1": 0.8669558548054134
+     },
+     "sc_v3": {
+      "k_pred": 10.583333333333334,
+      "f1": 0.5983173777376676
+     },
+     "zero": {
+      "k_pred": 0.0,
+      "f1": 0.0
+     }
+    }
+   },
+   {
+    "noise": "gauss",
+    "k": 20,
+    "sigma": 10.0,
+    "alg": {
+     "mbic_raw": {
+      "k_pred": 1954.4166666666667,
+      "f1": 0.05700044023550179
+     },
+     "binseg_raw": {
+      "k_pred": 5.0,
+      "f1": 0.36000000000000004
+     },
+     "bic_var": {
+      "k_pred": 12.666666666666666,
+      "f1": 0.6630346700083543
+     },
+     "sc_nofloor": {
+      "k_pred": 17.583333333333332,
+      "f1": 0.8511578550951567
+     },
+     "sc_v3": {
+      "k_pred": 12.666666666666666,
+      "f1": 0.6630346700083543
+     },
+     "zero": {
+      "k_pred": 0.0,
+      "f1": 0.0
+     }
+    }
+   },
+   {
+    "noise": "t3",
+    "k": 0,
+    "sigma": 1.0,
+    "alg": {
+     "mbic_raw": {
+      "k_pred": 5.583333333333333,
+      "f1": 0.16666666666666666
+     },
+     "binseg_raw": {
+      "k_pred": 0.0,
+      "f1": 1.0
+     },
+     "bic_var": {
+      "k_pred": 22.75,
+      "f1": 0.0
+     },
+     "sc_nofloor": {
+      "k_pred": 19.083333333333332,
+      "f1": 0.0
+     },
+     "sc_v3": {
+      "k_pred": 16.75,
+      "f1": 0.0
+     },
+     "zero": {
+      "k_pred": 0.0,
+      "f1": 1.0
+     }
+    }
+   },
+   {
+    "noise": "t3",
+    "k": 0,
+    "sigma": 10.0,
+    "alg": {
+     "mbic_raw": {
+      "k_pred": 1702.5833333333333,
+      "f1": 0.0
+     },
+     "binseg_raw": {
+      "k_pred": 5.0,
+      "f1": 0.0
+     },
+     "bic_var": {
+      "k_pred": 22.333333333333332,
+      "f1": 0.0
+     },
+     "sc_nofloor": {
+      "k_pred": 17.666666666666668,
+      "f1": 0.08333333333333333
+     },
+     "sc_v3": {
+      "k_pred": 15.5,
+      "f1": 0.08333333333333333
+     },
+     "zero": {
+      "k_pred": 0.0,
+      "f1": 1.0
+     }
+    }
+   },
+   {
+    "noise": "t3",
+    "k": 5,
+    "sigma": 1.0,
+    "alg": {
+     "mbic_raw": {
+      "k_pred": 8.25,
+      "f1": 0.6438175615807195
+     },
+     "binseg_raw": {
+      "k_pred": 4.25,
+      "f1": 0.8670634920634921
+     },
+     "bic_var": {
+      "k_pred": 11.916666666666666,
+      "f1": 0.6737619008138843
+     },
+     "sc_nofloor": {
+      "k_pred": 20.0,
+      "f1": 0.4948217554969056
+     },
+     "sc_v3": {
+      "k_pred": 11.75,
+      "f1": 0.6775497796017632
+     },
+     "zero": {
+      "k_pred": 0.0,
+      "f1": 0.0
+     }
+    }
+   },
+   {
+    "noise": "t3",
+    "k": 5,
+    "sigma": 10.0,
+    "alg": {
+     "mbic_raw": {
+      "k_pred": 1695.6666666666667,
+      "f1": 0.016518360889187515
+     },
+     "binseg_raw": {
+      "k_pred": 5.0,
+      "f1": 0.9166666666666666
+     },
+     "bic_var": {
+      "k_pred": 11.583333333333334,
+      "f1": 0.7170051232551232
+     },
+     "sc_nofloor": {
+      "k_pred": 25.166666666666668,
+      "f1": 0.44417280072483895
+     },
+     "sc_v3": {
+      "k_pred": 11.333333333333334,
+      "f1": 0.6799680862180862
+     },
+     "zero": {
+      "k_pred": 0.0,
+      "f1": 0.0
+     }
+    }
+   },
+   {
+    "noise": "t3",
+    "k": 20,
+    "sigma": 1.0,
+    "alg": {
+     "mbic_raw": {
+      "k_pred": 20.75,
+      "f1": 0.7215363127052039
+     },
+     "binseg_raw": {
+      "k_pred": 4.833333333333333,
+      "f1": 0.34194444444444444
+     },
+     "bic_var": {
+      "k_pred": 14.083333333333334,
+      "f1": 0.5841111321959417
+     },
+     "sc_nofloor": {
+      "k_pred": 28.166666666666668,
+      "f1": 0.658345909356691
+     },
+     "sc_v3": {
+      "k_pred": 12.5,
+      "f1": 0.5385917512403081
+     },
+     "zero": {
+      "k_pred": 0.0,
+      "f1": 0.0
+     }
+    }
+   },
+   {
+    "noise": "t3",
+    "k": 20,
+    "sigma": 10.0,
+    "alg": {
+     "mbic_raw": {
+      "k_pred": 1698.6666666666667,
+      "f1": 0.06262407478427197
+     },
+     "binseg_raw": {
+      "k_pred": 5.0,
+      "f1": 0.37333333333333335
+     },
+     "bic_var": {
+      "k_pred": 13.666666666666666,
+      "f1": 0.6483914422282623
+     },
+     "sc_nofloor": {
+      "k_pred": 35.5,
+      "f1": 0.5961229690576341
+     },
+     "sc_v3": {
+      "k_pred": 13.666666666666666,
+      "f1": 0.6483914422282623
+     },
+     "zero": {
+      "k_pred": 0.0,
+      "f1": 0.0
+     }
+    }
+   }
+  ],
+  "class_ar1_vs_binseg": {
+   "n": 2,
+   "max_margin": 0.22339966821390977,
+   "cells": [
+    {
+     "noise": "ar1_09",
+     "k": 5,
+     "sigma": 1.0,
+     "f1_proposed": 0.42660033178609025,
+     "f1_binseg": 0.65,
+     "margin": 0.22339966821390977
+    },
+    {
+     "noise": "ar1_09",
+     "k": 5,
+     "sigma": 10.0,
+     "f1_proposed": 0.46759444259444255,
+     "f1_binseg": 0.6166666666666667,
+     "margin": 0.14907222407222415
+    }
+   ]
+  },
+  "class_dense_floor_cost": {
+   "n": 3,
+   "max_margin": 0.2686384770677458,
+   "cells": [
+    {
+     "noise": "gauss",
+     "k": 20,
+     "sigma": 1.0,
+     "f1_proposed": 0.5983173777376676,
+     "f1_nofloor": 0.8669558548054134,
+     "margin": 0.2686384770677458
+    },
+    {
+     "noise": "gauss",
+     "k": 20,
+     "sigma": 10.0,
+     "f1_proposed": 0.6630346700083543,
+     "f1_nofloor": 0.8511578550951567,
+     "margin": 0.18812318508680248
+    },
+    {
+     "noise": "t3",
+     "k": 20,
+     "sigma": 1.0,
+     "f1_proposed": 0.5385917512403081,
+     "f1_nofloor": 0.658345909356691,
+     "margin": 0.1197541581163829
+    }
+   ]
+  },
+  "pure_noise_false_positives": [
+   {
+    "noise": "ar1_09",
+    "sigma": 1.0,
+    "k_pred": {
+     "mbic_raw": 43.166666666666664,
+     "binseg_raw": 4.583333333333333,
+     "bic_var": 74.5,
+     "sc_nofloor": 347.4166666666667,
+     "sc_v3": 74.5,
+     "zero": 0.0
+    }
+   },
+   {
+    "noise": "ar1_09",
+    "sigma": 10.0,
+    "k_pred": {
+     "mbic_raw": 1106.5,
+     "binseg_raw": 5.0,
+     "bic_var": 71.75,
+     "sc_nofloor": 321.6666666666667,
+     "sc_v3": 71.75,
+     "zero": 0.0
+    }
+   },
+   {
+    "noise": "gauss",
+    "sigma": 1.0,
+    "k_pred": {
+     "mbic_raw": 0.0,
+     "binseg_raw": 0.0,
+     "bic_var": 0.0,
+     "sc_nofloor": 0.16666666666666666,
+     "sc_v3": 0.0,
+     "zero": 0.0
+    }
+   },
+   {
+    "noise": "gauss",
+    "sigma": 10.0,
+    "k_pred": {
+     "mbic_raw": 1949.4166666666667,
+     "binseg_raw": 5.0,
+     "bic_var": 0.0,
+     "sc_nofloor": 0.08333333333333333,
+     "sc_v3": 0.0,
+     "zero": 0.0
+    }
+   },
+   {
+    "noise": "t3",
+    "sigma": 1.0,
+    "k_pred": {
+     "mbic_raw": 5.583333333333333,
+     "binseg_raw": 0.0,
+     "bic_var": 22.75,
+     "sc_nofloor": 19.083333333333332,
+     "sc_v3": 16.75,
+     "zero": 0.0
+    }
+   },
+   {
+    "noise": "t3",
+    "sigma": 10.0,
+    "k_pred": {
+     "mbic_raw": 1702.5833333333333,
+     "binseg_raw": 5.0,
+     "bic_var": 22.333333333333332,
+     "sc_nofloor": 17.666666666666668,
+     "sc_v3": 15.5,
+     "zero": 0.0
+    }
+   }
+  ]
+ }
+}

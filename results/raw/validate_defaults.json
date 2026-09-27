@@ -1,0 +1,2520 @@
+{
+ "report": {
+  "apple": {
+   "amoc": {
+    "status": "SKIP"
+   },
+   "binseg": {
+    "status": "SKIP"
+   },
+   "pelt": {
+    "status": "SKIP"
+   },
+   "segneigh": {
+    "status": "SKIP"
+   },
+   "zero": {
+    "status": "ok",
+    "ref": [],
+    "got": [],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   }
+  },
+  "bank": {
+   "amoc": {
+    "status": "ok",
+    "ref": [
+     19
+    ],
+    "got": [
+     19
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   },
+   "binseg": {
+    "status": "ok",
+    "ref": [
+     19,
+     315,
+     368
+    ],
+    "got": [
+     19,
+     315,
+     368
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "pelt": {
+    "status": "ok",
+    "ref": [
+     19,
+     315,
+     368
+    ],
+    "got": [
+     19,
+     315,
+     368
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "segneigh": {
+    "status": "ok",
+    "ref": [
+     19,
+     315,
+     326,
+     368
+    ],
+    "got": [
+     19,
+     315,
+     326,
+     368
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "zero": {
+    "status": "ok",
+    "ref": [],
+    "got": [],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   }
+  },
+  "bee_waggle_6": {
+   "amoc": {
+    "status": "SKIP"
+   },
+   "binseg": {
+    "status": "SKIP"
+   },
+   "pelt": {
+    "status": "SKIP"
+   },
+   "segneigh": {
+    "status": "SKIP"
+   },
+   "zero": {
+    "status": "ok",
+    "ref": [],
+    "got": [],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   }
+  },
+  "bitcoin": {
+   "amoc": {
+    "status": "ok",
+    "ref": [
+     547
+    ],
+    "got": [
+     547
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   },
+   "binseg": {
+    "status": "ok",
+    "ref": [
+     547,
+     579,
+     604,
+     648
+    ],
+    "got": [
+     547,
+     579,
+     604,
+     648
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "pelt": {
+    "status": "ok",
+    "ref": [
+     545,
+     584,
+     599,
+     648
+    ],
+    "got": [
+     545,
+     584,
+     599,
+     648
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "segneigh": {
+    "status": "ok",
+    "ref": [
+     545,
+     584,
+     599,
+     648
+    ],
+    "got": [
+     545,
+     584,
+     599,
+     648
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "zero": {
+    "status": "ok",
+    "ref": [],
+    "got": [],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   }
+  },
+  "brent_spot": {
+   "amoc": {
+    "status": "ok",
+    "ref": [
+     139
+    ],
+    "got": [
+     139
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   },
+   "binseg": {
+    "status": "ok",
+    "ref": [
+     139,
+     279,
+     378
+    ],
+    "got": [
+     139,
+     279,
+     378
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "pelt": {
+    "status": "ok",
+    "ref": [
+     139,
+     279,
+     376
+    ],
+    "got": [
+     139,
+     279,
+     376
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "segneigh": {
+    "status": "ok",
+    "ref": [
+     131,
+     189,
+     280,
+     376
+    ],
+    "got": [
+     131,
+     189,
+     280,
+     376
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "zero": {
+    "status": "ok",
+    "ref": [],
+    "got": [],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   }
+  },
+  "businv": {
+   "amoc": {
+    "status": "ok",
+    "ref": [
+     170
+    ],
+    "got": [
+     170
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   },
+   "binseg": {
+    "status": "ok",
+    "ref": [
+     170,
+     247
+    ],
+    "got": [
+     170,
+     247
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "pelt": {
+    "status": "ok",
+    "ref": [
+     152,
+     247
+    ],
+    "got": [
+     152,
+     247
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "segneigh": {
+    "status": "ok",
+    "ref": [
+     68,
+     164,
+     247
+    ],
+    "got": [
+     68,
+     164,
+     247
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "zero": {
+    "status": "ok",
+    "ref": [],
+    "got": [],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   }
+  },
+  "centralia": {
+   "amoc": {
+    "status": "ok",
+    "ref": [],
+    "got": [],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   },
+   "binseg": {
+    "status": "ok",
+    "ref": [
+     9
+    ],
+    "got": [
+     9
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "pelt": {
+    "status": "ok",
+    "ref": [
+     9
+    ],
+    "got": [
+     9
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "segneigh": {
+    "status": "ok",
+    "ref": [
+     9
+    ],
+    "got": [
+     9
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "zero": {
+    "status": "ok",
+    "ref": [],
+    "got": [],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   }
+  },
+  "children_per_woman": {
+   "amoc": {
+    "status": "ok",
+    "ref": [
+     177
+    ],
+    "got": [
+     177
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   },
+   "binseg": {
+    "status": "ok",
+    "ref": [
+     177
+    ],
+    "got": [
+     177
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "pelt": {
+    "status": "ok",
+    "ref": [
+     177
+    ],
+    "got": [
+     177
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "segneigh": {
+    "status": "ok",
+    "ref": [
+     114,
+     187
+    ],
+    "got": [
+     114,
+     187
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "zero": {
+    "status": "ok",
+    "ref": [],
+    "got": [],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   }
+  },
+  "co2_canada": {
+   "amoc": {
+    "status": "ok",
+    "ref": [
+     106
+    ],
+    "got": [
+     106
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   },
+   "binseg": {
+    "status": "ok",
+    "ref": [
+     106,
+     166
+    ],
+    "got": [
+     106,
+     166
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "pelt": {
+    "status": "ok",
+    "ref": [
+     103,
+     165
+    ],
+    "got": [
+     103,
+     165
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "segneigh": {
+    "status": "ok",
+    "ref": [
+     103,
+     164
+    ],
+    "got": [
+     103,
+     164
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "zero": {
+    "status": "ok",
+    "ref": [],
+    "got": [],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   }
+  },
+  "construction": {
+   "amoc": {
+    "status": "ok",
+    "ref": [
+     86
+    ],
+    "got": [
+     86
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   },
+   "binseg": {
+    "status": "ok",
+    "ref": [
+     86,
+     135,
+     190,
+     267
+    ],
+    "got": [
+     86,
+     135,
+     190,
+     267
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "pelt": {
+    "status": "ok",
+    "ref": [
+     63,
+     135,
+     189,
+     266
+    ],
+    "got": [
+     63,
+     135,
+     189,
+     266
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "segneigh": {
+    "status": "ok",
+    "ref": [
+     63,
+     135,
+     189,
+     266
+    ],
+    "got": [
+     63,
+     135,
+     189,
+     266
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "zero": {
+    "status": "ok",
+    "ref": [],
+    "got": [],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   }
+  },
+  "debt_ireland": {
+   "amoc": {
+    "status": "ok",
+    "ref": [],
+    "got": [],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   },
+   "binseg": {
+    "status": "ok",
+    "ref": [
+     8
+    ],
+    "got": [
+     8
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "pelt": {
+    "status": "ok",
+    "ref": [
+     8
+    ],
+    "got": [
+     8
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "segneigh": {
+    "status": "ok",
+    "ref": [
+     8
+    ],
+    "got": [
+     8
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "zero": {
+    "status": "ok",
+    "ref": [],
+    "got": [],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   }
+  },
+  "gdp_argentina": {
+   "amoc": {
+    "status": "ok",
+    "ref": [
+     44
+    ],
+    "got": [
+     44
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   },
+   "binseg": {
+    "status": "ok",
+    "ref": [
+     44
+    ],
+    "got": [
+     44
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "pelt": {
+    "status": "ok",
+    "ref": [
+     44
+    ],
+    "got": [
+     44
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "segneigh": {
+    "status": "ok",
+    "ref": [
+     31,
+     46
+    ],
+    "got": [
+     31,
+     46
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "zero": {
+    "status": "ok",
+    "ref": [],
+    "got": [],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   }
+  },
+  "gdp_croatia": {
+   "amoc": {
+    "status": "ok",
+    "ref": [
+     7
+    ],
+    "got": [
+     7
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   },
+   "binseg": {
+    "status": "ok",
+    "ref": [
+     7
+    ],
+    "got": [
+     7
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "pelt": {
+    "status": "ok",
+    "ref": [
+     7
+    ],
+    "got": [
+     7
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "segneigh": {
+    "status": "ok",
+    "ref": [
+     7
+    ],
+    "got": [
+     7
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "zero": {
+    "status": "ok",
+    "ref": [],
+    "got": [],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   }
+  },
+  "gdp_iran": {
+   "amoc": {
+    "status": "ok",
+    "ref": [
+     41
+    ],
+    "got": [
+     41
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   },
+   "binseg": {
+    "status": "ok",
+    "ref": [
+     42
+    ],
+    "got": [
+     42
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "pelt": {
+    "status": "ok",
+    "ref": [
+     42
+    ],
+    "got": [
+     42
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "segneigh": {
+    "status": "ok",
+    "ref": [
+     9,
+     42
+    ],
+    "got": [
+     9,
+     42
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "zero": {
+    "status": "ok",
+    "ref": [],
+    "got": [],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   }
+  },
+  "gdp_japan": {
+   "amoc": {
+    "status": "ok",
+    "ref": [
+     23
+    ],
+    "got": [
+     23
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   },
+   "binseg": {
+    "status": "ok",
+    "ref": [
+     23
+    ],
+    "got": [
+     23
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "pelt": {
+    "status": "ok",
+    "ref": [
+     23
+    ],
+    "got": [
+     23
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "segneigh": {
+    "status": "ok",
+    "ref": [
+     23
+    ],
+    "got": [
+     23
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "zero": {
+    "status": "ok",
+    "ref": [],
+    "got": [],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   }
+  },
+  "global_co2": {
+   "amoc": {
+    "status": "ok",
+    "ref": [
+     90
+    ],
+    "got": [
+     90
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   },
+   "binseg": {
+    "status": "ok",
+    "ref": [
+     91
+    ],
+    "got": [
+     91
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "pelt": {
+    "status": "ok",
+    "ref": [
+     76,
+     95
+    ],
+    "got": [
+     76,
+     95
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "segneigh": {
+    "status": "ok",
+    "ref": [
+     75,
+     95
+    ],
+    "got": [
+     75,
+     95
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "zero": {
+    "status": "ok",
+    "ref": [],
+    "got": [],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   }
+  },
+  "homeruns": {
+   "amoc": {
+    "status": "ok",
+    "ref": [
+     59
+    ],
+    "got": [
+     59
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   },
+   "binseg": {
+    "status": "ok",
+    "ref": [
+     59
+    ],
+    "got": [
+     59
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "pelt": {
+    "status": "ok",
+    "ref": [
+     59
+    ],
+    "got": [
+     59
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "segneigh": {
+    "status": "ok",
+    "ref": [
+     53,
+     80
+    ],
+    "got": [
+     53,
+     80
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "zero": {
+    "status": "ok",
+    "ref": [],
+    "got": [],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   }
+  },
+  "iceland_tourism": {
+   "amoc": {
+    "status": "ok",
+    "ref": [
+     148
+    ],
+    "got": [
+     148
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   },
+   "binseg": {
+    "status": "ok",
+    "ref": [
+     148
+    ],
+    "got": [
+     148
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "pelt": {
+    "status": "ok",
+    "ref": [
+     148
+    ],
+    "got": [
+     148
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "segneigh": {
+    "status": "ok",
+    "ref": [
+     124,
+     160
+    ],
+    "got": [
+     124,
+     160
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "zero": {
+    "status": "ok",
+    "ref": [],
+    "got": [],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   }
+  },
+  "jfk_passengers": {
+   "amoc": {
+    "status": "ok",
+    "ref": [
+     328
+    ],
+    "got": [
+     328
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   },
+   "binseg": {
+    "status": "ok",
+    "ref": [
+     328
+    ],
+    "got": [
+     328
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "pelt": {
+    "status": "ok",
+    "ref": [
+     328
+    ],
+    "got": [
+     328
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "segneigh": {
+    "status": "ok",
+    "ref": [
+     328,
+     435
+    ],
+    "got": [
+     328,
+     435
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "zero": {
+    "status": "ok",
+    "ref": [],
+    "got": [],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   }
+  },
+  "lga_passengers": {
+   "amoc": {
+    "status": "ok",
+    "ref": [
+     253
+    ],
+    "got": [
+     253
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   },
+   "binseg": {
+    "status": "ok",
+    "ref": [
+     86,
+     253,
+     422
+    ],
+    "got": [
+     86,
+     253,
+     422
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "pelt": {
+    "status": "ok",
+    "ref": [
+     86,
+     265,
+     422
+    ],
+    "got": [
+     86,
+     265,
+     422
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "segneigh": {
+    "status": "ok",
+    "ref": [
+     109,
+     163,
+     253,
+     422
+    ],
+    "got": [
+     109,
+     163,
+     253,
+     422
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "zero": {
+    "status": "ok",
+    "ref": [],
+    "got": [],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   }
+  },
+  "measles": {
+   "amoc": {
+    "status": "ok",
+    "ref": [],
+    "got": [],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   },
+   "binseg": {
+    "status": "ok",
+    "ref": [],
+    "got": [],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "pelt": {
+    "status": "ok",
+    "ref": [
+     149,
+     178,
+     255,
+     275,
+     369,
+     393,
+     472,
+     496,
+     572,
+     596,
+     681,
+     701,
+     777,
+     807
+    ],
+    "got": [
+     149,
+     178,
+     255,
+     275,
+     369,
+     393,
+     472,
+     496,
+     572,
+     596,
+     681,
+     701,
+     777,
+     807
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "segneigh": {
+    "status": "ok",
+    "ref": [
+     369,
+     392,
+     681,
+     701
+    ],
+    "got": [
+     369,
+     392,
+     681,
+     701
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "zero": {
+    "status": "ok",
+    "ref": [],
+    "got": [],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   }
+  },
+  "nile": {
+   "amoc": {
+    "status": "ok",
+    "ref": [
+     27
+    ],
+    "got": [
+     27
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   },
+   "binseg": {
+    "status": "ok",
+    "ref": [
+     27
+    ],
+    "got": [
+     27
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "pelt": {
+    "status": "ok",
+    "ref": [
+     27
+    ],
+    "got": [
+     27
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "segneigh": {
+    "status": "ok",
+    "ref": [
+     27
+    ],
+    "got": [
+     27
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "zero": {
+    "status": "ok",
+    "ref": [],
+    "got": [],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   }
+  },
+  "occupancy": {
+   "amoc": {
+    "status": "SKIP"
+   },
+   "binseg": {
+    "status": "SKIP"
+   },
+   "pelt": {
+    "status": "SKIP"
+   },
+   "segneigh": {
+    "status": "SKIP"
+   },
+   "zero": {
+    "status": "ok",
+    "ref": [],
+    "got": [],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   }
+  },
+  "ozone": {
+   "amoc": {
+    "status": "ok",
+    "ref": [
+     35
+    ],
+    "got": [
+     35
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   },
+   "binseg": {
+    "status": "ok",
+    "ref": [
+     10,
+     35
+    ],
+    "got": [
+     10,
+     35
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "pelt": {
+    "status": "ok",
+    "ref": [
+     10,
+     33
+    ],
+    "got": [
+     10,
+     33
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "segneigh": {
+    "status": "ok",
+    "ref": [
+     11,
+     33
+    ],
+    "got": [
+     11,
+     33
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "zero": {
+    "status": "ok",
+    "ref": [],
+    "got": [],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   }
+  },
+  "quality_control_1": {
+   "amoc": {
+    "status": "ok",
+    "ref": [
+     143
+    ],
+    "got": [
+     143
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   },
+   "binseg": {
+    "status": "ok",
+    "ref": [
+     143
+    ],
+    "got": [
+     143
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "pelt": {
+    "status": "ok",
+    "ref": [
+     143
+    ],
+    "got": [
+     143
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "segneigh": {
+    "status": "ok",
+    "ref": [
+     143
+    ],
+    "got": [
+     143
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "zero": {
+    "status": "ok",
+    "ref": [],
+    "got": [],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   }
+  },
+  "quality_control_2": {
+   "amoc": {
+    "status": "ok",
+    "ref": [
+     96
+    ],
+    "got": [
+     96
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   },
+   "binseg": {
+    "status": "ok",
+    "ref": [
+     96
+    ],
+    "got": [
+     96
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "pelt": {
+    "status": "ok",
+    "ref": [
+     96
+    ],
+    "got": [
+     96
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "segneigh": {
+    "status": "ok",
+    "ref": [
+     96
+    ],
+    "got": [
+     96
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "zero": {
+    "status": "ok",
+    "ref": [],
+    "got": [],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   }
+  },
+  "quality_control_3": {
+   "amoc": {
+    "status": "ok",
+    "ref": [
+     178
+    ],
+    "got": [
+     178
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   },
+   "binseg": {
+    "status": "ok",
+    "ref": [
+     178
+    ],
+    "got": [
+     178
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "pelt": {
+    "status": "ok",
+    "ref": [
+     178
+    ],
+    "got": [
+     178
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "segneigh": {
+    "status": "ok",
+    "ref": [
+     178
+    ],
+    "got": [
+     178
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "zero": {
+    "status": "ok",
+    "ref": [],
+    "got": [],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   }
+  },
+  "quality_control_4": {
+   "amoc": {
+    "status": "ok",
+    "ref": [
+     157
+    ],
+    "got": [
+     157
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   },
+   "binseg": {
+    "status": "ok",
+    "ref": [
+     157,
+     287,
+     341,
+     467
+    ],
+    "got": [
+     157,
+     287,
+     341,
+     467
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "pelt": {
+    "status": "ok",
+    "ref": [
+     175,
+     287,
+     341,
+     467
+    ],
+    "got": [
+     175,
+     287,
+     341,
+     467
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "segneigh": {
+    "status": "ok",
+    "ref": [
+     175,
+     287,
+     341,
+     467
+    ],
+    "got": [
+     175,
+     287,
+     341,
+     467
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "zero": {
+    "status": "ok",
+    "ref": [],
+    "got": [],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   }
+  },
+  "quality_control_5": {
+   "amoc": {
+    "status": "ok",
+    "ref": [],
+    "got": [],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   },
+   "binseg": {
+    "status": "ok",
+    "ref": [],
+    "got": [],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "pelt": {
+    "status": "ok",
+    "ref": [],
+    "got": [],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "segneigh": {
+    "status": "ok",
+    "ref": [],
+    "got": [],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "zero": {
+    "status": "ok",
+    "ref": [],
+    "got": [],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   }
+  },
+  "rail_lines": {
+   "amoc": {
+    "status": "ok",
+    "ref": [
+     25
+    ],
+    "got": [
+     25
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   },
+   "binseg": {
+    "status": "ok",
+    "ref": [
+     25
+    ],
+    "got": [
+     25
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "pelt": {
+    "status": "ok",
+    "ref": [
+     25
+    ],
+    "got": [
+     25
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "segneigh": {
+    "status": "ok",
+    "ref": [
+     25
+    ],
+    "got": [
+     25
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "zero": {
+    "status": "ok",
+    "ref": [],
+    "got": [],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   }
+  },
+  "ratner_stock": {
+   "amoc": {
+    "status": "ok",
+    "ref": [
+     271
+    ],
+    "got": [
+     271
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   },
+   "binseg": {
+    "status": "ok",
+    "ref": [
+     207,
+     271
+    ],
+    "got": [
+     207,
+     271
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "pelt": {
+    "status": "ok",
+    "ref": [
+     212,
+     272
+    ],
+    "got": [
+     212,
+     272
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "segneigh": {
+    "status": "ok",
+    "ref": [
+     207,
+     272
+    ],
+    "got": [
+     207,
+     272
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "zero": {
+    "status": "ok",
+    "ref": [],
+    "got": [],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   }
+  },
+  "robocalls": {
+   "amoc": {
+    "status": "ok",
+    "ref": [
+     35
+    ],
+    "got": [
+     35
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   },
+   "binseg": {
+    "status": "ok",
+    "ref": [
+     35
+    ],
+    "got": [
+     35
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "pelt": {
+    "status": "ok",
+    "ref": [
+     35
+    ],
+    "got": [
+     35
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "segneigh": {
+    "status": "ok",
+    "ref": [
+     7,
+     35
+    ],
+    "got": [
+     7,
+     35
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "zero": {
+    "status": "ok",
+    "ref": [],
+    "got": [],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   }
+  },
+  "run_log": {
+   "amoc": {
+    "status": "SKIP"
+   },
+   "binseg": {
+    "status": "SKIP"
+   },
+   "pelt": {
+    "status": "SKIP"
+   },
+   "segneigh": {
+    "status": "SKIP"
+   },
+   "zero": {
+    "status": "ok",
+    "ref": [],
+    "got": [],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   }
+  },
+  "scanline_126007": {
+   "amoc": {
+    "status": "ok",
+    "ref": [
+     403
+    ],
+    "got": [
+     403
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   },
+   "binseg": {
+    "status": "ok",
+    "ref": [
+     153,
+     286,
+     324,
+     375,
+     403
+    ],
+    "got": [
+     153,
+     286,
+     324,
+     375,
+     403
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "pelt": {
+    "status": "ok",
+    "ref": [
+     105,
+     116,
+     291,
+     306,
+     315,
+     324,
+     375,
+     402
+    ],
+    "got": [
+     105,
+     116,
+     291,
+     306,
+     315,
+     324,
+     375,
+     402
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "segneigh": {
+    "status": "ok",
+    "ref": [
+     291,
+     324,
+     375,
+     402
+    ],
+    "got": [
+     291,
+     324,
+     375,
+     402
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "zero": {
+    "status": "ok",
+    "ref": [],
+    "got": [],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   }
+  },
+  "scanline_42049": {
+   "amoc": {
+    "status": "ok",
+    "ref": [
+     274
+    ],
+    "got": [
+     274
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   },
+   "binseg": {
+    "status": "ok",
+    "ref": [
+     184,
+     274,
+     466
+    ],
+    "got": [
+     184,
+     274,
+     466
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "pelt": {
+    "status": "ok",
+    "ref": [
+     60,
+     76,
+     184,
+     273,
+     466
+    ],
+    "got": [
+     60,
+     76,
+     184,
+     273,
+     466
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "segneigh": {
+    "status": "ok",
+    "ref": [
+     60,
+     76,
+     184,
+     273
+    ],
+    "got": [
+     60,
+     76,
+     184,
+     273
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "zero": {
+    "status": "ok",
+    "ref": [],
+    "got": [],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   }
+  },
+  "seatbelts": {
+   "amoc": {
+    "status": "ok",
+    "ref": [
+     71
+    ],
+    "got": [
+     71
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   },
+   "binseg": {
+    "status": "ok",
+    "ref": [
+     71,
+     168
+    ],
+    "got": [
+     71,
+     168
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "pelt": {
+    "status": "ok",
+    "ref": [
+     71,
+     168
+    ],
+    "got": [
+     71,
+     168
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "segneigh": {
+    "status": "ok",
+    "ref": [
+     9,
+     71,
+     168
+    ],
+    "got": [
+     9,
+     71,
+     168
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "zero": {
+    "status": "ok",
+    "ref": [],
+    "got": [],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   }
+  },
+  "shanghai_license": {
+   "amoc": {
+    "status": "ok",
+    "ref": [
+     147
+    ],
+    "got": [
+     147
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   },
+   "binseg": {
+    "status": "ok",
+    "ref": [
+     147
+    ],
+    "got": [
+     147
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "pelt": {
+    "status": "ok",
+    "ref": [
+     147
+    ],
+    "got": [
+     147
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "segneigh": {
+    "status": "ok",
+    "ref": [
+     146,
+     167
+    ],
+    "got": [
+     146,
+     167
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "zero": {
+    "status": "ok",
+    "ref": [],
+    "got": [],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   }
+  },
+  "unemployment_nl": {
+   "amoc": {
+    "status": "ok",
+    "ref": [],
+    "got": [],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   },
+   "binseg": {
+    "status": "ok",
+    "ref": [
+     130,
+     142,
+     180
+    ],
+    "got": [
+     130,
+     142,
+     180
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "pelt": {
+    "status": "ok",
+    "ref": [
+     131,
+     140,
+     174
+    ],
+    "got": [
+     131,
+     140,
+     174
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "segneigh": {
+    "status": "ok",
+    "ref": [
+     131,
+     140,
+     174
+    ],
+    "got": [
+     131,
+     140,
+     174
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "zero": {
+    "status": "ok",
+    "ref": [],
+    "got": [],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   }
+  },
+  "us_population": {
+   "amoc": {
+    "status": "ok",
+    "ref": [
+     459
+    ],
+    "got": [
+     459
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   },
+   "binseg": {
+    "status": "ok",
+    "ref": [
+     218,
+     459,
+     621
+    ],
+    "got": [
+     218,
+     459,
+     621
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "pelt": {
+    "status": "ok",
+    "ref": [
+     311,
+     561
+    ],
+    "got": [
+     311,
+     561
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "segneigh": {
+    "status": "ok",
+    "ref": [
+     141,
+     323,
+     496,
+     644
+    ],
+    "got": [
+     141,
+     323,
+     496,
+     644
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "zero": {
+    "status": "ok",
+    "ref": [],
+    "got": [],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   }
+  },
+  "usd_isk": {
+   "amoc": {
+    "status": "ok",
+    "ref": [
+     116
+    ],
+    "got": [
+     116
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   },
+   "binseg": {
+    "status": "ok",
+    "ref": [
+     58,
+     116
+    ],
+    "got": [
+     58,
+     116
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "pelt": {
+    "status": "ok",
+    "ref": [
+     58,
+     115
+    ],
+    "got": [
+     58,
+     115
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "segneigh": {
+    "status": "ok",
+    "ref": [
+     58,
+     115
+    ],
+    "got": [
+     58,
+     115
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "zero": {
+    "status": "ok",
+    "ref": [],
+    "got": [],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   }
+  },
+  "well_log": {
+   "amoc": {
+    "status": "ok",
+    "ref": [
+     460
+    ],
+    "got": [
+     460
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   },
+   "binseg": {
+    "status": "ok",
+    "ref": [
+     178,
+     280,
+     460
+    ],
+    "got": [
+     178,
+     280,
+     460
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "pelt": {
+    "status": "ok",
+    "ref": [
+     178,
+     280,
+     431,
+     657,
+     660
+    ],
+    "got": [
+     178,
+     280,
+     431,
+     657,
+     660
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "segneigh": {
+    "status": "ok",
+    "ref": [
+     178,
+     431,
+     657,
+     660
+    ],
+    "got": [
+     178,
+     431,
+     657,
+     660
+    ],
+    "exact": true,
+    "within1": true,
+    "phantom": true
+   },
+   "zero": {
+    "status": "ok",
+    "ref": [],
+    "got": [],
+    "exact": true,
+    "within1": true,
+    "phantom": false
+   }
+  }
+ },
+ "summary": {
+  "amoc": {
+   "n_ref": 37,
+   "exact": 37,
+   "within1": 37,
+   "skip": 4,
+   "phantom": 5,
+   "mismatch": []
+  },
+  "binseg": {
+   "n_ref": 37,
+   "exact": 37,
+   "within1": 37,
+   "skip": 4,
+   "phantom": 37,
+   "mismatch": []
+  },
+  "pelt": {
+   "n_ref": 37,
+   "exact": 37,
+   "within1": 37,
+   "skip": 4,
+   "phantom": 37,
+   "mismatch": []
+  },
+  "segneigh": {
+   "n_ref": 37,
+   "exact": 37,
+   "within1": 37,
+   "skip": 4,
+   "phantom": 37,
+   "mismatch": []
+  },
+  "zero": {
+   "n_ref": 41,
+   "exact": 41,
+   "within1": 41,
+   "skip": 0,
+   "phantom": 0,
+   "mismatch": []
+  }
+ }
+}

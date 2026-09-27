@@ -1,0 +1,27 @@
+# Dependencies for the zcode2026 reproduction package.
+#
+# Lower bounds only, deliberately. Two environments were used:
+#   Python 3.13.12 / numpy 2.5.3 / scipy 1.18.1 / matplotlib 3.11.2  (environment "A")
+#   Python 3.10.12 / numpy 2.2.6 / scipy 1.15.3 / matplotlib 3.10.9  (environment "B")
+# See REPRODUCIBILITY_AUDIT.md. Pinning exact versions would imply the results
+# depend on them, which the cross-version check shows they do not.
+#
+# R58 correction. This file used to say the published numbers were produced on
+# A and "independently re-verified bit-for-bit" on B. A cold-start rerun of the
+# reproduction package in each environment showed the raw tree is not all from
+# one of them:
+#   * results/raw/tcpd_main.json reproduces exactly under A and differs from the
+#     committed file at 646 leaf values (1 ULP) under B;
+#   * results/raw/landscape.json and results/raw/phantom_impact.json reproduce
+#     exactly under B and differ at 1 ULP under A.
+# What does hold in both, and is what the paper relies on: change-point sets are
+# bit-identical; every reported metric agrees at the 4 decimals the paper prints;
+# and the last-bit differences are the documented CPython 3.12 float sum() change
+# (see Appendix B, "Determinism, precisely"). Two consequences worth stating:
+# a rerun in a single environment will show last-bit differences in a subset of
+# the raw files, and the figure PNGs are not byte-stable across matplotlib
+# versions (3.10.9 vs 3.11.2 changes the rendered bytes, not the plotted values).
+numpy>=2.2.6
+scipy>=1.15.3
+matplotlib>=3.10.9
+pypdf>=5.0.0  # PDF page counting and compiled-text verification gates

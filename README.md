@@ -1,6 +1,12 @@
-# zcode2026 reproducibility materials
+# Offline Change-Point Operating-Point Study
 
-This repository contains selected analysis code, generated result files, processed tables, and figures for the zcode2026 study. It excludes manuscript sources and PDFs, cover letters, submission archives, and review materials.
+Reproducibility code and generated artifacts accompanying the paper:
+
+**Precision/Recall Operating Points and Penalty Scale Sensitivity in Offline Change-Point Detection: A Mechanism Study of BinSeg and PELT**
+
+Repository: https://github.com/gdpujee/offline-change-point-operating-points
+
+This repository contains selected analysis code, generated result files, processed tables, and figures. It excludes manuscript sources and PDFs, cover letters, submission archives, and review materials.
 
 ## Contents
 

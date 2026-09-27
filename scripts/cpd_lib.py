@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-cpd_lib.py — 变点检测核心库（zcode2026）
+cpd_lib.py — 离线变点检测机制研究的核心库
 
 两个层次：
 A) TCPDBench/R changepoint 的忠实复现（验证基准，依据 C/R 源码逐行核对，2026-09-13）
